@@ -56,3 +56,25 @@ a {
 
 #main {
   padding: 50px; }
+
+body 
+{
+  background-color: rgb(46, 101, 138)}
+
+h1#name 
+{
+  text-align: center;
+  font-family: georgia;
+  color: rgb(1, 7, 12);
+  font-size: 30pt;
+}
+p#p1
+{
+  text-decoration-line: inherit;
+  text-align: center;
+  font-size: 28pt;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:black 
+
+
+

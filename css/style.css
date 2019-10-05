@@ -1,7 +1,7 @@
 
 body
 {
-    background-image: radial-gradient(ellipse,#A43931,#1D4350);
+    background-image: radial-gradient(ellipse,#232526,#182848,#D7DDE8,#4b6cb7,#134E5E);
     font-family: 'Grenze', serif;
     font-size: 16px;
     font-weight:lighter;
@@ -42,4 +42,25 @@ body
    border:1px #ccc solid;
    padding:10px; 
    border-radius:15px;
+}
+p{
+    font-size: 18pt;
+}
+h1{
+    font-size: 50pt;
+}
+a:link{
+    color: #25383C;
+}
+a:visited{
+    color:rgb(66, 165, 185);
+}
+a:focus, a:hover{
+    border-bottom: 1px solid;
+}
+a:active{
+    color: #98AFC7;
+}
+footer{
+    text-align: center
 }

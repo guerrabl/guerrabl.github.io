@@ -1,7 +1,7 @@
 
 body
 {
-    background-image: radial-gradient(ellipse,#232526,#182848,#D7DDE8,#4b6cb7,#134E5E);
+    background-image: linear-gradient(to right,#274046,#E6DADA,#274046);
     font-family: 'Grenze', serif;
     font-size: 16px;
     font-weight:lighter;

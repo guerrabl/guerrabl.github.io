@@ -1,7 +1,8 @@
 
 body
 {
-    background-image: linear-gradient(to right,#274046,#E6DADA,#274046);
+    padding-top: 3.5rem;
+    background-image: linear-gradient(to right,#000000,#434343);
     font-family: 'Grenze', serif;
     font-size: 16px;
     font-weight:lighter;
@@ -47,7 +48,8 @@ p{
     font-size: 18pt;
 }
 h1{
-    font-size: 50pt;
+    font-size: 30pt;
+    color: white;
 }
 a:link{
     color: #25383C;
@@ -63,4 +65,7 @@ a:active{
 }
 footer{
     text-align: center
+}
+.jumbotron{
+    background-image: linear-gradient(#403A3E,#BE5869)
 }

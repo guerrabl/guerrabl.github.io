@@ -2,8 +2,8 @@
 body
 {
     padding-top: 3.5rem;
-    background-image: linear-gradient(to right,#000000,#434343);
-    font-family: 'Grenze', serif;
+    background-color: rgb(218, 218, 218)8, 88, 87);
+    font-family: 'Karla', sans-serif;
     font-size: 16px;
     font-weight:lighter;
 
@@ -64,8 +64,11 @@ a:active{
     color: #98AFC7;
 }
 footer{
-    text-align: center
+    text-align: center;
 }
 .jumbotron{
-    background-image: linear-gradient(#403A3E,#BE5869)
+    background-image: url("https://live.staticflickr.com/2888/13334080323_641e55ab35_b.jpg");
+}
+.firsthtwo{
+    color: white;
 }

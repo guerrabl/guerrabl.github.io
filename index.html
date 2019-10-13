@@ -14,6 +14,15 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- Custom Google font-->
     <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+    <!-- Javascript file -->
+
+    <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+      document.getElementById("mainHeader").onclick = function() {
+        this.style.color = 'orange'
+      }
+    })
+    </script>
   </head>
 
   <body>
@@ -56,7 +65,7 @@
       <!-- Main jumbotron for a primary marketing message or call to action -->
       <div class="jumbotron">
         <div class="container">
-		  <h1 class="display-3">Blaize Diego Guerra</h1>
+		  <h1 class="display-3" id="mainHeader">Blaize Diego Guerra</h1>
           <p class="firsthtwo">I am a student of Computer Science at Oregon State University-Cascades. This portfolio includes some of my professional work as well as some prohects that are of personal interest.</p>
           <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
         </div>
@@ -66,7 +75,7 @@
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-4">
-            <h2 >Resume</h2>
+            <h2 id="Resume">Resume</h2>
             <p>Work experience, and specialized training</p>
             <p><a class="btn btn-secondary" href="https://www.linkedin.com/in/blaize-guerra-297911182" role="button">View details &raquo;</a></p>
           </div>
